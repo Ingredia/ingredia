@@ -1,0 +1,150 @@
+extends layout
+
+block content
+
+    aside#aside
+        section#name Larry Wong
+
+        section#info
+            h3 INFO
+            p Yanlin Wong
+            p Male
+            p 1993.11
+
+        section#contact
+            h3 LOCATION
+            p Shenzhen, China
+
+            h3 E-MAIL
+            p yanlin.wong@foxmail.com
+
+            h3 PHONE
+            p +86 137-6305-4980
+
+        section#social
+            h3 Github</h3>
+            p
+                a(href="http://www.github.com/Ingredia") github.com/Ingredia
+
+            h3 Zcool
+            p
+                a(href="http://www.zcool.com.cn/u/13078612") zcool.com.cn/u/13078612
+
+    div#c
+        h3 Home
+        p yanlin.wong@foxmail.com
+
+        h3 Lofter
+        p larry-wong.lofter.com
+
+        h3 Weibo
+        p YanLinnn
+
+        h3 Email
+        p yanlin.wong@foxmail.com
+
+        h3 Phone
+        p +86 137 6305 4980
+
+        h3 WeChat
+        p YanLinnn
+
+        button#button-close-tab
+            img(src="img/btn-close.png")
+
+    div#page
+        button#button-menu
+            div
+            div
+            div
+
+        section#tab
+            p &gt;&nbsp;&nbsp;&nbsp;SOCIAL&nbsp;&nbsp;&nbsp;&amp;&nbsp;&nbsp;&nbsp;CONTACT
+
+        article#home
+            section#background
+                header#header INGREDIA.
+
+            section#module
+                ul
+                    li(data-scroll="0")
+                        div.ani.on
+                        p HOME
+                    li(data-scroll="1")
+                        div.ani
+                        p PORTFOLIO
+                    li(data-scroll="2")
+                        div.ani
+                        p PROFILE
+
+            button#button-next
+                img(src="img/btn-next.png")
+
+        article#portfolio
+            section.title
+                h2 PORTFOLIO
+
+            section#container
+                section.left
+                    section.work.quarter
+                        img.cover(src="img/letter_3.jpg")
+                        div.mask
+                        section.state
+                            h3 TYPEFACE ART ACTIVITY
+                    section.work.quarter
+                        img.cover(src="img/letter_2.jpg")
+                        div.mask
+                        section.state
+                            h3 TYPEFACE ART ACTIVITY
+                    section.work.half
+                        img.cover(src="img/helo_cover.jpg")
+                        div.mask
+                        section.state
+                            h3 HELO
+                    section.work.quarter
+                        img.cover(src="img/coach_cover.jpg")
+                        div.mask
+                        section.state
+                            h3 COMPUTER TECH COACH
+                    section.work.quarter
+                        img.cover(src="img/planet_cover.jpg")
+                        div.mask
+                        section.state
+                            h3 PLANET CLUB AGM
+
+                section.right
+                    section.work.half
+                        img.cover(src="img/poet_cover.jpg")
+                        div.mask
+                        section.state
+                            h3 I AM POET ACTIVITY
+                    section.work.quarter
+                        img.cover(src="img/peace_1.jpg")
+                        div.mask
+                        section.state
+                            h3 LOWPOLY SCENE SIDE
+                    section.work.quarter
+                        img.cover(src="img/island_1.jpg")
+                        div.mask
+                        section.state
+                            h3 LOWPOLY SCENE ISLAND
+
+                    section#more
+                        h3 ...
+
+        article#about
+            section.title
+                h2 PROFILE
+
+            section#photo
+                img(src="img/photo.jpg")
+
+            section#intro Hello. My name is Larry Wong. I am a web developer and designer living in Shenzhen. Typically I use HTML/CSS, JavaScript, Illustrator and Photoshop to work. For me, 'design and development' is an enjoyful process. I'd like to keep passionate with it.<br/><br/>Ingredia is my homepage to display a selection of my works. Thank for your visit. Please contact me when any problem is found.
+
+            section#download To learn more, you can download my resume here:
+
+            button#button-download
+                a(href="yanlin_wong.pdf", target="_blank") DOWNLOAD RESUME
+
+            footer#footer
+                p © Yanlin Wong 2015 | Ingredia
