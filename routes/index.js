@@ -7,7 +7,10 @@ router.get('/', function(req, res, next) {
 });
 
 // Deal with 404 and 500.
+<<<<<<< HEAD
 // Catch 404
+=======
+>>>>>>> cac54568b2fb89262ffdbfa15deb41ae4347ce1b
 router.use(function(req, res, next) {
     res.status(404);
     res.render('code', {
@@ -16,7 +19,10 @@ router.use(function(req, res, next) {
     });
 });
 
+<<<<<<< HEAD
 // Catch 500
+=======
+>>>>>>> cac54568b2fb89262ffdbfa15deb41ae4347ce1b
 router.use(function(req, res, next) {
     res.status(500);
     res.render('code', {
