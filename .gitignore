@@ -1,3 +1,7 @@
 node_modules/
+<<<<<<< HEAD
 npm-debug.log
 public/yanlin_wong.pdf
+=======
+npm-debug.log
+>>>>>>> cac54568b2fb89262ffdbfa15deb41ae4347ce1b
