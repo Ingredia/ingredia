@@ -1,5 +1,6 @@
 node_modules/
 <<<<<<< HEAD
+.idea/
 npm-debug.log
 public/yanlin_wong.pdf
 =======
